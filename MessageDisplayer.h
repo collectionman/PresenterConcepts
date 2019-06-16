@@ -20,7 +20,7 @@ public:
         m_presenter -> present() ;
     }
 private:
-    MessagePresenter* m_presenter ;
+    MessagePresenter* m_presenter ; // (retain cycle) m_presenter -> m_delegate
 } ;
 
 #endif // MESSAGEDISPLAYER_H_INCLUDED
