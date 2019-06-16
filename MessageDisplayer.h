@@ -12,7 +12,7 @@ public:
 
     ~MessageDisplayer( void ) {
         if ( m_presenter ) {
-            delete m_presenter ;
+            delete m_presenter ; // (retain cycle) m_presenter -> m_delegate
         }
     }
 
@@ -20,7 +20,7 @@ public:
         m_presenter -> present() ;
     }
 private:
-    MessagePresenter* m_presenter ; // (retain cycle) m_presenter -> m_delegate
+    MessagePresenter* m_presenter ;
 } ;
 
 #endif // MESSAGEDISPLAYER_H_INCLUDED
