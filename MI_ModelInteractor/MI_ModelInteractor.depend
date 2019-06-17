@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1560471567 source:/home/collectionman/Escritorio/Programacion/materias/pp/MI_ModelInteractor/main.cpp
+	<iostream>
+	"Model.h"
+	"Interactor.h"
+
+1560471821 /home/collectionman/Escritorio/Programacion/materias/pp/MI_ModelInteractor/Model.h
+	"IModel.h"
+
+1560471607 /home/collectionman/Escritorio/Programacion/materias/pp/MI_ModelInteractor/IModel.h
+
+1560472091 /home/collectionman/Escritorio/Programacion/materias/pp/MI_ModelInteractor/Interactor.h
+	<iostream>
+	"IInteractor.h"
+	"IModel.h"
+
+1560471628 /home/collectionman/Escritorio/Programacion/materias/pp/MI_ModelInteractor/IInteractor.h
+

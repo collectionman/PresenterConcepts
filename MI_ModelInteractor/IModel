@@ -1,0 +1,7 @@
+#ifndef IMODEL_INCLUDED
+#define IMODEL_INCLUDED
+
+class IModel {
+} ;
+
+#endif // IMODEL_INCLUDED
